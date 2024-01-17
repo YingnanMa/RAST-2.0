@@ -17,7 +17,7 @@ The objective of arbitrary style transfer is to apply a given artistic or photo-
 
 
 ## Model Testing
-- Download [VGG pretrained](https://drive.google.com/file/d/1cI6ubAziMdOsSJZEvfofW-iCtnCmsONL/view?usp=share_link) model to ./model/ folder/
+- Download [VGG pretrained](https://drive.google.com/file/d/1cI6ubAziMdOsSJZEvfofW-iCtnCmsONL/view?usp=share_link) model to ./model/ folder.
 - Put content images to *./content/* folder.
 - Put style images to *./style/* folder.
 - Run the following command:
