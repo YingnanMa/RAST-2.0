@@ -1,6 +1,6 @@
 # RAST-TOMM
 
-This is the official PyTorch implementation of our paper: ["RAST: Restorable Arbitrary Style Transfer"](https://dl.acm.org/doi/abs/10.1145/3638770)(**WACV 2023**)   
+This is the official PyTorch implementation of our paper: ["RAST: Restorable Arbitrary Style Transfer"](https://dl.acm.org/doi/abs/10.1145/3638770)(**ACM 2023**)   
 
 
 The objective of arbitrary style transfer is to apply a given artistic or photo-realistic style to a target image. Although current methods have shown some success in transferring style, arbitrary style transfer still has several issues, including content leakage. Embedding an artistic style can result in unintended changes to the image content. This paper proposes an iterative framework called Restorable Arbitrary Style Transfer (RAST) to effectively ensure content preservation and mitigate potential alterations to the content information. RAST can transmit both content and style information through multi-restorations and balance the content-style trade-off in stylized images using the image restoration accuracy. To ensure RAST’s effectiveness, we introduce two novel loss functions: multi-restoration loss and style difference loss. We also propose a new quantitative evaluation method to assess content preservation and style embedding performance. Experimental results show that RAST outperforms state-of-the-art methods in generating stylized images that preserve content and embed style accurately.
