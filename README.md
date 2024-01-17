@@ -22,5 +22,5 @@ The objective of arbitrary style transfer is to apply a given artistic or photo-
 - Put style images to *./style/* folder.
 - Run the following command:
 ```
-python Eval.py --content_dir ./content/ --style_dir ./style/
+python eval.py --content_dir ./content/ --style_dir ./style/
 ```
