@@ -19,7 +19,7 @@ The objective of arbitrary style transfer is to apply a given artistic or photo-
 
 
 ## Please take note of the following considerations
-- RAST framework involves three different network architectures (AdaIN, IEAST, and SANet) with two different training strategies (combined, replaced). If you want to do training or testing, please proceed to the root directory of each architecture under specific training strategy. The training and testing steps are outlined below:
+- RAST framework supports three different network architectures (AdaIN, IEAST, and SANet) with two different training strategies (combined, replaced). If you want to do training or testing, please proceed to the root directory of each architecture under specific training strategy. The training and testing steps are outlined below:
 
 ## Model Testing
 - Create ''model'' folder
