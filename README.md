@@ -17,7 +17,7 @@ The objective of arbitrary style transfer is to apply a given artistic or photo-
 
 
 ## Please take note of the following considerations
-- We train RAST with three network architectures, AdaIN, IEAST, and SANet, each divided into combine and replace methods. If you want to training or testing, please proceed to the root directory of each method. The training steps are outlined below:
+- We train RAST with three network architectures, AdaIN, IEAST, and SANet, each divided into combine and replace methods. If you want to training or testing, please proceed to the root directory of each method. The training and testing steps are outlined below:
 
 ## Model Testing
 - Download [VGG pretrained](https://drive.google.com/file/d/1cI6ubAziMdOsSJZEvfofW-iCtnCmsONL/view?usp=share_link) model to ./model/ folder.
