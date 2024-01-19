@@ -22,10 +22,10 @@ The objective of arbitrary style transfer is to apply a given artistic or photo-
 - RAST framework supports three different network architectures (AdaIN, IEAST, and SANet) with two different training strategies (combined, replaced). If you want to do training or testing, please proceed to the directory of each architecture under specific training strategy folder. The training and testing steps are outlined below:
 
 ## Model Testing
-- Create ''model'' folder under specific training strategy folder.
-- Download [VGG pretrained](https://drive.google.com/file/d/1cI6ubAziMdOsSJZEvfofW-iCtnCmsONL/view?usp=share_link) model to ./model/ folder.
-- Put testing content images to *./content/* folder.
-- Put testing style images to *./style/* folder.
+- Create ''model'', ''content'' and ''style'' folders under specific training strategy folder.
+- Download [VGG pretrained](https://drive.google.com/file/d/1cI6ubAziMdOsSJZEvfofW-iCtnCmsONL/view?usp=share_link) model to ''model'' folder.
+- Put testing content images to ''content'' folder.
+- Put testing style images to ''style'' folder.
 - Put content and style folders under specific training strategy folder.
 - Run the following command:
 ```
