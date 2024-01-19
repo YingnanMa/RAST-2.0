@@ -26,7 +26,6 @@ The objective of arbitrary style transfer is to apply a given artistic or photo-
 - Download [VGG pretrained](https://drive.google.com/file/d/1cI6ubAziMdOsSJZEvfofW-iCtnCmsONL/view?usp=share_link) model to ''model'' folder.
 - Put testing content images to ''content'' folder.
 - Put testing style images to ''style'' folder.
-- Put content and style folders under specific training strategy folder.
 - Run the following command:
 ```
 python eval.py --content_dir ./content/ --style_dir ./style/
