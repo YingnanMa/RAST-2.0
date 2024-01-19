@@ -1,7 +1,7 @@
 # RAST-TOMM
 
 This is the official PyTorch implementation of our paper: 
-["RAST: Restorable Arbitrary Style Transfer"](https://dl.acm.org/doi/abs/10.1145/3638770)(**TOMM 2023**)   
+["RAST: Restorable Arbitrary Style Transfer"](https://dl.acm.org/doi/abs/10.1145/3638770)  (**TOMM 2023**)   
 
 
 
@@ -34,9 +34,9 @@ python eval.py --content_dir ./content/ --style_dir ./style/
   
 ## Model Training
 - Create ''model'', ''coco_train'' and ''wiki_train'' folder under specific training strategy folder.
-- Download [VGG pretrained](https://drive.google.com/file/d/1cI6ubAziMdOsSJZEvfofW-iCtnCmsONL/view?usp=share_link) model to *./model/* folder.
-- Download COCO2014 dataset to *./coco_train/* folder
-- Download Wiki dataset to *./wiki_train/* folder
+- Download [VGG pretrained](https://drive.google.com/file/d/1cI6ubAziMdOsSJZEvfofW-iCtnCmsONL/view?usp=share_link) model to ''model'' folder.
+- Download COCO2014 dataset to ''coco_train'' folder
+- Download Wiki dataset to ''wiki_train'' folder
 - Run the following command:
 ```
 python train.py --content_dir ./coco_train/ --style_dir ./wiki_train/
