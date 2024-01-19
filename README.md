@@ -34,5 +34,5 @@ python eval.py --content_dir ./content/ --style_dir ./style/
 - Download Wiki dataset to *./wiki_train/* folder
 - Run the following command:
 ```
-python train.py --content_dir ./content/ --style_dir ./style/
+python train.py --content_dir ./coco_train/ --style_dir ./wiki_train/
 ```
