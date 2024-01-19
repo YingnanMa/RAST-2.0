@@ -15,7 +15,9 @@ The objective of arbitrary style transfer is to apply a given artistic or photo-
 - PyTorch 1.8.0
 - CUDA 11.1
 
-We train RAST with three network architectures, AdaIN, IEAST, and SANet, each divided into combine and replace methods. If you want to training or testing, please proceed to the root directory of each method. The training steps are outlined below:
+
+## Please take note of the following considerations
+- We train RAST with three network architectures, AdaIN, IEAST, and SANet, each divided into combine and replace methods. If you want to training or testing, please proceed to the root directory of each method. The training steps are outlined below:
 
 ## Model Testing
 - Download [VGG pretrained](https://drive.google.com/file/d/1cI6ubAziMdOsSJZEvfofW-iCtnCmsONL/view?usp=share_link) model to ./model/ folder.
