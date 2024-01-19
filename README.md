@@ -22,7 +22,7 @@ The objective of arbitrary style transfer is to apply a given artistic or photo-
 - RAST framework involves three different network architectures (AdaIN, IEAST, and SANet) with two different training strategies (combined, replaced). If you want to do training or testing, please proceed to the root directory of each architecture under specific training strategy. The training and testing steps are outlined below:
 
 ## Model Testing
-- Create model folder
+- Create ''model'' folder
 - Download [VGG pretrained](https://drive.google.com/file/d/1cI6ubAziMdOsSJZEvfofW-iCtnCmsONL/view?usp=share_link) model to ./model/ folder.
 - Put content images to *./content/* folder.
 - Put style images to *./style/* folder.
@@ -30,8 +30,10 @@ The objective of arbitrary style transfer is to apply a given artistic or photo-
 ```
 python eval.py --content_dir ./content/ --style_dir ./style/
 ```
+- The path parameters for some testing code sections are different. Please modify the path parameters based on your current specific path.
+  
 ## Model Training
-- Create model,coco_train, wiki_train folder.
+- Create ''model'', ''coco_train'' and ''wiki_train'' folder.
 - Download [VGG pretrained](https://drive.google.com/file/d/1cI6ubAziMdOsSJZEvfofW-iCtnCmsONL/view?usp=share_link) model to *./model/* folder.
 - Download COCO2014 dataset to *./coco_train/* folder
 - Download Wiki dataset to *./wiki_train/* folder
