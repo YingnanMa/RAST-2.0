@@ -1,7 +1,7 @@
 # RAST-TOMM
 
 This is the official PyTorch implementation of our paper: 
-["RAST: Restorable Arbitrary Style Transfer"](https://dl.acm.org/doi/abs/10.1145/3638770)  (**TOMM 2023**)   
+["RAST: Restorable Arbitrary Style Transfer"](https://dl.acm.org/doi/abs/10.1145/3638770)  (**TOMM 2024**)   
 
 
 
